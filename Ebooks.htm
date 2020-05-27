@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+    <style>
+    * {
+			box-sizing: border-box ;
+			margin: 0px ;						
+			overflow: scroll ;
+			font-family: "Inconsolata", sans-serif;
+			transition: 2s ;
+				}
+	
+  body {  
+  		perspective: 600px ;
+  		display: flex ;
+  		justify-content: center ;
+  		align-items: center ;
+  		flex-direction: column ;
+  		min-height: 100vh ;
+  		
+  			}			
+  			
+ .contBook { margin-top: 30px ; box-shadow: 2px 2px 6px #000  }
+				
+	.book {
+		 width: 250px ;
+		 height: 350px ;
+		 position: relative ;
+		 transform-style: preserve-3d ;
+		 perspective: 600px ;
+		 position: relative ;
+		 border: .5px solid #000 ;
+		 
+					}
+					
+	 .bookBg {
+	   position: absolute ;
+  		height: 100% ;
+  		width: 100% ;
+  	 transform-origin: left ;
+		 background-size: cover ;
+		
+	 				}
+					
+  .Page {
+  		position: absolute ;
+  		height: 100% ;
+  		width: 100% ;
+  		background: #d1d1d1 ;
+		 font-size: 12px ;
+		 text-align: center ;
+		 line-height: 20px ;
+		 transform-origin: left ;
+  				}
+  		
+  	h2 {
+  		color: #d1d1d1	;
+  		text-shadow: 0 0 3px #000 ;
+  		line-height: 40px ;
+  					}
+  					
+  	p { margin: 3px ; }
+  	
+  	.pageNum {
+  			position: relative ;
+  			bottom: -30% ;
+  					}
+  
+  	.endBook {
+  			position: absolute ;
+  			background: #272727 ;
+  			color: #fff ;
+  			font-size: 60px ;
+  			text-align: center ;
+  			line-height: 100px ;
+  			height: 100% ;
+  					}
+  					
+
+
+    
+    </style>  
+  </head>
+  <body id="body">
+   
+ <div class="contBook"> 
+   <div class="book book1">
+   <nav class="endBook"> The Book End </nav>
+     <div class="Page pag3"> 
+      <h2> Data bases </h2>
+       <p> data bases have a languages like </p>
+       <p> MySQL , Orical , Secual Server , php </p>
+       <p> you need a spiecal tools like XAMPP or Visual Studio </p>
+       <p> This languages need a compilers </p>
+       <p> like php his compiler 's name is Apachey </p>
+       <p class="pageNum"> Page ( 3 ) </p>
+     </div>
+     <div class="Page pag2"> 
+      <h2> Librarys of programming lange </h2>
+       <p> first at all we will speek about </p>
+       <p> librarys of javascript </p>
+       <p> Javascript has many librarys like this </p>
+       <p> jQuery , ReactJs , Angular ect , ect ...</p>
+       <p> Naw we will talking about Css </p>
+       <p> Css means >> Cuscied Style Sheet </p>
+       <p> Css has librarys like Fontowsome for icons </p>
+       <p> Google fonts for fonts & normalize</p>
+       <p class="pageNum"> Page ( 2 ) </p>
+     </div>
+     <div class="Page pag1"> 
+      <h2> Hello , I'm Ahmed </h2>
+       <p> I like programming & I learn a programing </p>
+       <p> language like HTML , CSS , javascript </p>
+       <p> php , Java , C++ , C , C# , Kotlin , ring</p>
+       <p> MySQL , orical , Ruby , python </p>
+       <p> Thare 're many library for programing langs</p>
+       <p> We wil speek about it in the next page </p>
+       <p class="pageNum"> Page ( 1 ) </p>
+     </div>
+   <div class="bookBg" style=" background: url(../../img/7mada_panda.png) no-repeat ; background-size:cover"></div>
+   </div>
+ </div>   
+   
+ <div class="contBook">
+   <div class="book book2">
+   <nav class="endBook"> The Book End </nav>
+     <div class="Page pag3"> 
+      <h2> Data bases </h2>
+       <p> data bases have a languages like </p>
+       <p> MySQL , Orical , Secual Server , php </p>
+       <p> you need a spiecal tools like XAMPP or Visual Studio </p>
+       <p> This languages need a compilers </p>
+       <p> like php his compiler 's name is Apachey </p>
+       <p class="pageNum"> Page ( 3 ) </p>
+     </div>
+     <div class="Page pag2"> 
+      <h2> Librarys of programming lange </h2>
+       <p> first at all we will speek about </p>
+       <p> librarys of javascript </p>
+       <p> Javascript has many librarys like this </p>
+       <p> jQuery , ReactJs , Angular ect , ect ...</p>
+       <p> Naw we will talking about Css </p>
+       <p> Css means >> Cuscied Style Sheet </p>
+       <p> Css has librarys like Fontowsome for icons </p>
+       <p> Google fonts for fonts & normalize</p>
+       <p class="pageNum"> Page ( 2 ) </p>
+     </div>
+     <div class="Page pag1"> 
+      <h2> Hello , I'm Ahmed </h2>
+       <p> I like programming & I learn a programing </p>
+       <p> language like HTML , CSS , javascript </p>
+       <p> php , Java , C++ , C , C# , Kotlin , ring</p>
+       <p> MySQL , orical , Ruby , python </p>
+       <p> Thare 're many library for programing langs</p>
+       <p> We wil speek about it in the next page </p>
+       <p class="pageNum"> Page ( 1 ) </p>
+     </div>
+   <div class="bookBg" style=" background: url(../../img/panda.png) no-repeat ; background-size:cover"></div>
+   </div>
+ </div>
+ 
+ <div class="contBook">
+   <div class="book book3">
+   <nav class="endBook"> The Book End </nav>
+     <div class="Page pag3"> 
+      <h2> Data bases </h2>
+       <p> data bases have a languages like </p>
+       <p> MySQL , Orical , Secual Server , php </p>
+       <p> you need a spiecal tools like XAMPP or Visual Studio </p>
+       <p> This languages need a compilers </p>
+       <p> like php his compiler 's name is Apachey </p>
+       <p class="pageNum"> Page ( 3 ) </p>
+     </div>
+     <div class="Page pag2"> 
+      <h2> Librarys of programming lange </h2>
+       <p> first at all we will speek about </p>
+       <p> librarys of javascript </p>
+       <p> Javascript has many librarys like this </p>
+       <p> jQuery , ReactJs , Angular ect , ect ...</p>
+       <p> Naw we will talking about Css </p>
+       <p> Css means >> Cuscied Style Sheet </p>
+       <p> Css has librarys like Fontowsome for icons </p>
+       <p> Google fonts for fonts & normalize</p>
+       <p class="pageNum"> Page ( 2 ) </p>
+     </div>
+     <div class="Page pag1"> 
+      <h2> Hello , I'm Ahmed </h2>
+       <p> I like programming & I learn a programing </p>
+       <p> language like HTML , CSS , javascript </p>
+       <p> php , Java , C++ , C , C# , Kotlin , ring</p>
+       <p> MySQL , orical , Ruby , python </p>
+       <p> Thare 're many library for programing langs</p>
+       <p> We wil speek about it in the next page </p>
+       <p class="pageNum"> Page ( 1 ) </p>
+     </div>
+   <div class="bookBg" style=" background: url(../../img/bear.png) no-repeat ; background-size:cover"></div>
+   </div>
+ </div>
+  
+   
+  <script>
+  
+$(function() {
+  	
+ $(".bookBg").click(function(){
+  $(this).css({ "transform" : "rotateY(-90deg)" }); });
+  			
+ $(".Page").click(function(){
+  $(this).css({ "transform" : "rotateY(-90deg)" }); });
+  				
+  $(".endBook").click(function(){
+  $(".Page").css({ "transform" : "rotateY(0deg)" });
+  $(".bookBg").css({ "transform" : "rotateY(0deg)" });
+ 
+  });
+  				
+});
+ 	
+  </script>
+  </body>
+</html>
+
+
